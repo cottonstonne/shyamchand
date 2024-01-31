@@ -34,8 +34,7 @@ nav h1{
     color: whitesmoke;
 }
 .resume:hover {
-    background-color: whitesmoke;
-    color: black;
+    background-color: var(--red);
     scale: 1.1;
 }
 .button {
@@ -110,5 +109,20 @@ nav h1{
 }
 .desc{
   width: 50%;
+}
+
+
+.iconcnt .social_icons {
+  cursor: pointer;
+  transition: 400ms;
+}
+
+.iconcnt .social_icons:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.iconcnt:hover > .social_icons:not(:hover) {
+  filter: blur(1px);
+  transform: scale(0.8, 0.8);
 }
 
