@@ -1,0 +1,11 @@
+@import url(util.css);
+@import url(navbar.css);
+@import url(main.css);
+
+body{
+  background-color: #f7f7f2;
+  background-image: radial-gradient(rgba(12, 12, 12, 0.171) 1.3px, transparent 0);
+  background-size: 50px 50px;
+  background-position: -2px -2px;
+}
+

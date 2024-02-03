@@ -1,0 +1,51 @@
+.maincnt{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blob-motion{
+  width: 65vw;
+  position: absolute;
+  top:-40px;
+  left: -80px;
+  z-index: -1;
+}
+.photo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 50%;
+  position: relative;
+}
+#pic{
+  width: 20vw;
+  filter: drop-shadow(2px 2px 2px black);
+}
+.iconcnt{
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+.social_icons{
+  width: 40px;
+  border-radius: 10px;
+}
+.iconcnt .social_icons {
+  cursor: pointer;
+  transition: 400ms;
+}
+
+.iconcnt .social_icons:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.iconcnt:hover > .social_icons:not(:hover) {
+  filter: blur(1px);
+  transform: scale(0.8, 0.8);
+}
+.desc{
+  width: 50%;
+}

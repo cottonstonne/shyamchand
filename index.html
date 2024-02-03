@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Finger+Paint&family=Fruktur:ital@0;1&family=Henny+Penny&family=Kablammo&family=Kranky&display=swap" rel="stylesheet">
     <title>Shyam Chand</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="app/css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
 </head>
 <body>
@@ -36,11 +39,11 @@
         </svg>
         <img id="pic" src="image/portfolio_image.png" alt="my image">
         <div class="iconcnt">
-            <img class="social_icons" src="image/social_icons/gmail.png" alt="">
-            <img class="social_icons" src="image/social_icons/linkedin.png" alt="">
-            <img class="social_icons" src="image/social_icons/github.png" alt="">
-            <img class="social_icons" src="image/social_icons/leetcode.png" alt="">
-            <img class="social_icons" src="image/social_icons/insta.png" alt="">
+            <img onclick="openlink('gmail')" class="social_icons" src="image/social_icons/gmail.png" alt="">
+            <img onclick="location.href='https://www.linkedin.com/in/shyam-chand-6b603723b/'" class="social_icons" src="image/social_icons/linkedin.png" alt="">
+            <img onclick="openlink('github')" class="social_icons" src="image/social_icons/github.png" alt="">
+            <img onclick="openlink('leetcode')" class="social_icons" src="image/social_icons/leetcode.png" alt="">
+            <img onclick="openlink('instagram')" class="social_icons" src="image/social_icons/insta.png" alt="">
         </div>
         </div>
         <div class="desc">
@@ -56,6 +59,6 @@
           { repeat: 999, duration: 3000, yoyo: true }
         ).start();
       </script>
-    <script src="script.js"></script>
+    <script src="app/js/script.js"></script>
 </body>
 </html>
