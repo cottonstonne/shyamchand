@@ -62,3 +62,23 @@ nav h1{
   color: whitesmoke;
   box-shadow: 0 0px 20px rgba(193, 163, 98,0.4);
 }
+
+
+/* media queries */
+@media (max-width:480px) {
+  nav{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #namecnt{
+    text-align: center;
+    width: 100%;
+    height: 2rem;
+    margin-left: 5px;
+  }
+  .btn{
+    margin-top: 1rem;
+    display: flex;
+  }
+}
